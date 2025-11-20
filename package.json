@@ -5,8 +5,7 @@
     "type": "module",
     "scripts": {
       "start": "npx @redocly/cli preview",
-      "build": "npx @redocly/cli bundle-docs",
-      "start:prod": "npm run build && npx serve redocly-static"
+      "start:prod": "npx @redocly/cli preview --port 4000"
     },
     "dependencies": {
       "@redocly/realm": "*"
